@@ -27,12 +27,7 @@ PHP version with time-sensitivity:
 <?php } ?>
 ```
 
-Optionally, you can place the css into your site's css document.
-
----
-
->Pro tip! If you're using WoltLab, use the following instead:
-
+WoltLab version with time-sensitivity
 ```css
 .redout {
 	width: 100%;
