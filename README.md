@@ -2,7 +2,7 @@
 Red out your site for Net Neutrality
 
 ## Getting started
-1. Download [/redout.html](redout.html)
+1. Download [redout.html](redout.html)
 2. Open `redout.html` in a text editor and change `LuzFaltex.com` to the domain of your site. Save your changes
 3. Upload `redout.html` to your root site directory
 
