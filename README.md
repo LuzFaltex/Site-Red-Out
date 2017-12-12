@@ -20,6 +20,13 @@ Red out your site for Net Neutrality
 <iframe class="redout" src="https://www.luzfaltex.com/redout.html"></iframe>
 ```
 
+PHP version with time-sensitivity:
+```php
+<?php if (new DateTime() > new DateTime("2017-12-12")) { ?>
+<iframe class="redout" src="https://www.luzfaltex.com/redout.html"></iframe>
+<?php } ?>
+```
+
 Optionally, you can place the css into your site's css document.
 
 ---
