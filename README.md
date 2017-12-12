@@ -5,7 +5,7 @@ Red out your site for Net Neutrality.
 >
 > Thank you for defending Net Neutrality! -- Foxtrek_64, Owner of LuzFaltex
 
-### [Preview](https://luzfaltex.github.io/Site-Red-Out/index.html) located here.
+### Previews: [Raw](https://www.luzfaltex.com/redout.html) | [Live](https://www.luzfaltex.com)
 
 ## Getting started
 1. Download [redout.html](redout.html)
