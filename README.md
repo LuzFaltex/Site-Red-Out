@@ -20,7 +20,7 @@ Red out your site for Net Neutrality
 <iframe class="redout" src="https://www.luzfaltex.com/redout.html"></iframe>
 ```
 
-> Optionally, you can place the css into your site's css document.
+Optionally, you can place the css into your site's css document.
 
 ---
 
