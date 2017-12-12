@@ -5,6 +5,8 @@ Red out your site for Net Neutrality.
 >
 > Thank you for defending Net Neutrality! -- Foxtrek_64, Owner of LuzFaltex
 
+### [Preview](https://luzfaltex.github.io/Site-Red-Out/redout.html) located here.
+
 ## Getting started
 1. Download [redout.html](redout.html)
 2. Open `redout.html` in a text editor and change `LuzFaltex.com` to the domain of your site. Save your changes
