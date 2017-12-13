@@ -50,4 +50,3 @@ Place the following in the `header` template above the `#top` element
 ```html
 {if TIME_NOW|date:'Y m j' >= '2017 12 12'}<iframe class="redout" src="https://www.luzfaltex.com/redout.html"></iframe>{/if}
 ```
-The `{if}{/if}` piece ensures that it only displays on or after the 12th of December
