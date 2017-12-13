@@ -1,7 +1,7 @@
 # Site Red-Out
 Red out your site for Net Neutrality.
 
-> The HTML and CSS code included in this guide is mobile friendly, does not include trackers of any sort, is open source, and is licensed under the [MIT License](license.md). If you notice any mistakes, please feel free to make a PR and I will get it merged as quickly as possible.
+> The HTML and CSS code included in this guide is mobile friendly, does not include trackers of any sort, is open source, and is licensed under the [MIT License](license.md). If you notice any mistakes, please feel free to make a PR and I will get it merged as quickly as possible. Oh, and quick note: I am not affiliated with [Reddit](https://www.reddit.com) or their [similar-looking protest](https://www.reddit.com/r/FFTFCSSTEST/). This is my code from the ground up, though their CSS was helpful for reference.
 >
 > Thank you for defending Net Neutrality! -- Foxtrek_64, Owner of LuzFaltex
 
