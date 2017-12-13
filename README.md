@@ -46,6 +46,7 @@ body[data-page-id="1000"] .redout{
 ```
 Replace `1000` with the ID of your page (pull open your F12 editor to find it easily)
 
+Place the following in the `header` template above the `#top` element
 ```html
 {if TIME_NOW|date:'Y m j' >= '2017 12 12'}<iframe class="redout" src="https://www.luzfaltex.com/redout.html"></iframe>{/if}
 ```
