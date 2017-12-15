@@ -8,7 +8,7 @@ Red out your site for Net Neutrality.
 ### Previews: [Raw](https://www.luzfaltex.com/blackout.html) | [Live](https://www.luzfaltex.com)
 
 ## Getting started
-1. Download [redout.html](redout.html)
+1. Download [blackout.html](blackout.html)
 2. Open `blackout.html` in a text editor and change `LuzFaltex.com` to the domain of your site. Save your changes
 3. Upload `blackout.html` to your root site directory
 
