@@ -1,0 +1,158 @@
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <meta charset="utf-8">
+        <style>
+            html {
+                background-color: rgb(20, 20, 20);
+                font-family: "Helvetica";
+            }
+            body {
+                color: white;
+                font-size: 36px;
+            }
+            .main {
+                text-align: center;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+            }
+            a {
+                background-color: white;
+                color: rgb(20, 20, 20);
+                border-radius: 3px;
+                padding: 0 6px 0 6px;
+                white-space: nowrap;
+            }
+            .buylink {
+                border-radius: 3px;
+                border-width: 3px;
+                height: 100%;
+                display: table-cell;
+                vertical-align: center;
+                background: #3498db;
+                background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+                background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+                background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+                background-image: -o-linear-gradient(top, #3498db, #2980b9);
+                background-image: linear-gradient(to bottom, #3498db, #2980b9);
+                text-decoration: none;
+            }
+            .fadein {
+                opacity: 1;
+                animation: fadein 1s ease-in-out 2s both;
+            }
+            @-moz-keyframes fadein {
+                0% {opacity: 0}
+                100% {opacity: 1}
+            }
+            @-webkit-keyframes fadein {
+                0% {opacity: 0}
+                100% {opacity: 1}
+            }
+            @keyframes fadein {
+                0% {opacity: 0}
+                100% {opacity: 1}
+            }
+            .disappear {
+                visibility: visible;
+                animation: disappear 0s ease-in-out 2s both;
+            }
+            @-moz-keyframes disappear {
+                0% { visibility: visible }
+                100% { visibility: collapse }
+            }
+            @-webkit-keyframes disappear {
+                0% { visibility: visible }
+                100% { visibility: collapse }
+            }
+            @keyframes disappear {
+                0% { visibility: visible }
+                100% { visibility: collapse }
+            }
+            .appear {
+                visibility: collapse;
+                animation: appear 0s ease-in-out 2s both;
+            }
+            @-moz-keyframes appear {
+                0% { visibility: collapse }
+                100% { visibility: visible }
+            }
+            @-webkit-keyframes appear {
+                0% { visibility: collapse }
+                100% { visibility: visible }
+            }
+            @keyframes appear {
+                0% { visibility: collapse }
+                100% { visibility: visible }
+            }
+            .spinnerHolder {
+                width: 96px;
+                height: 96px;
+                animation: spin 0.8s cubic-bezier(0.75,0.3,0.3,0.75) infinite;
+            }
+            @-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+            @-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+            @keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+            .spinnerSizing {
+                width: 48px;
+                height: 48px;
+                overflow: hidden;
+            }
+            .spinner {
+                width: 94px;
+                height: 94px;
+                border-radius: 88px;
+                border: 10px solid #fff;
+                box-sizing: border-box;
+                display: block;
+            }
+            .small {
+                font-size: 8px;
+            }
+            /* tablet and desktop */
+            @media only screen and (min-width: 600px)  {
+                p {
+                    margin: 10;
+                }
+                .main {
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100vh;
+                    padding: 0;
+                    margin: 0;
+                    border: 0;
+                }
+
+            }
+        </style>
+    </head>
+    <body>
+        <div class="main" id="main">
+            <div id="top">
+                <p class="fadein">Your allotted bandwidth for <a href="#">LuzFaltex.com</a> has been exceeded.</p>
+                <p class="fadein">Please upgrade your internet plan to continue browsing.</p>
+            </div>
+            <div class="middle disappear">
+                <div class="spinnerHolder">
+                    <div class="spinnerSizing">
+                        <div class="spinner"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="middle appear">
+                <a class="buylink" href="https://www.fightforthefuture.org/" target="_blank">
+                    <p>Buy now!</p>
+                    <p>Access will be billed to your account</p>
+                </a>
+            </div>
+            <p class="disappear">Loading...</p>
+            <div id="bottom">
+                <p class="fadein">The FCC ended Net Neutrality on December 14th.</p>
+                <p class="fadein"><a href="https://www.battleforthenet.com/breaktheinternet/" target="_blank">Join the protest</a> and <a href="https://www.battleforthenet.com/" target="_blank">call congress</a> today to reverse this decision and SAVE NET NEUTRALITY</p>
+            </div>
+        </div>
+    
+</body></html>
