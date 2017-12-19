@@ -5,7 +5,7 @@ Red out your site for Net Neutrality.
 >
 > Thank you for defending Net Neutrality! -- Foxtrek_64, Owner of LuzFaltex
 
-### Previews: [Raw](https://www.luzfaltex.com/blackout.html) | [Live](https://www.luzfaltex.com)
+### ~~Previews: [Raw](https://www.luzfaltex.com/blackout.html) | [Live](https://www.luzfaltex.com)~~
 
 ## Getting started
 1. Download [blackout.html](blackout.html)
